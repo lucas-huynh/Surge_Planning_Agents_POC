@@ -2,6 +2,7 @@
 This proof-of-concept (PoC) demonstrates an **interactive stakeholder interview simulator** for hospital surge planning.  
 It combines a **FastAPI backend** (multi-persona logic) and a **Streamlit frontend** (UI + notes canvas) to help students explore how optimization, bandits, and dynamic programming problems are framed from conversations.
 
+---
 # ──────────────────────────────────────────────────────────────────────────────
 # Repository layout
 # ──────────────────────────────────────────────────────────────────────────────
@@ -21,7 +22,6 @@ It combines a **FastAPI backend** (multi-persona logic) and a **Streamlit fronte
 # └─ README.md
 # ──────────────────────────────────────────────────────────────────────────────
 
----
 ## Quickstart
 ```bash
 # 1) clone repo and cd surge-poc
