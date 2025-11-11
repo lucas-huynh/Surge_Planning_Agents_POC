@@ -17,8 +17,7 @@ surge-poc/
  │ └─ manager.yaml
  ├─ frontend/
  │ └─ app.py
- ├─ requirements.txt
- └─ README.md
+ └─ requirements.txt
 ```
 ## Quickstart
 ```bash
