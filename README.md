@@ -3,24 +3,22 @@ This proof-of-concept (PoC) demonstrates an **interactive stakeholder interview 
 It combines a **FastAPI backend** (multi-persona logic) and a **Streamlit frontend** (UI + notes canvas) to help students explore how optimization, bandits, and dynamic programming problems are framed from conversations.
 
 ---
-# ──────────────────────────────────────────────────────────────────────────────
-# Repository layout
-# ──────────────────────────────────────────────────────────────────────────────
-# surge-poc/
-# ├─ backend/
-# │ ├─ app.py
-# │ ├─ models.py
-# │ ├─ persona_engine.py
-# │ ├─ store.py
-# │ └─ personas/
-# │ ├─ cfo.yaml
-# │ ├─ physician.yaml
-# │ └─ manager.yaml
-# ├─ frontend/
-# │ └─ app.py
-# ├─ requirements.txt
-# └─ README.md
-# ──────────────────────────────────────────────────────────────────────────────
+
+## Repository layout
+surge-poc/
+ ├─ backend/
+ │ ├─ app.py
+ │ ├─ models.py
+ │ ├─ persona_engine.py
+ │ ├─ store.py
+ │ └─ personas/
+ │ ├─ cfo.yaml
+ │ ├─ physician.yaml
+ │ └─ manager.yaml
+ ├─ frontend/
+ │ └─ app.py
+ ├─ requirements.txt
+ └─ README.md
 
 ## Quickstart
 ```bash
