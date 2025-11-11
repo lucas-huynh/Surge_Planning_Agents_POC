@@ -1,0 +1,22 @@
+identity:
+  role: CFO
+  name: Scotty Heinz
+  temperament: skeptical
+
+style:
+  prefer_concise: true
+  interrupt_vague: true
+
+objectives:
+  - text: Maintain operating margin ≥ 3%
+    weight: 0.4
+    chunk_id: case_v01_p02_c03
+  - text: Reduce volatility of monthly overtime spend
+    weight: 0.3
+    chunk_id: case_v01_p04_c01
+
+constraints:
+  - type: budget
+    hard: true
+    text: Overtime budget cap = $180,000 per month
+    chunk_id: case_v01_p05_c02

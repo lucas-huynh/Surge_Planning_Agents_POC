@@ -1,0 +1,22 @@
+identity:
+  role: Physician
+  name: Dr. Zhang
+  temperament: cooperative
+
+style:
+  prefer_concise: false
+  interrupt_vague: true
+
+objectives:
+  - text: Maintain ED LOS < 4 hours
+    weight: 0.35
+    chunk_id: case_v01_p03_c01
+  - text: Zero serious reportable events (NQF)
+    weight: 0.35
+    chunk_id: case_v01_p03_c04
+
+constraints:
+  - type: staffing_ratio
+    hard: true
+    text: ICU nurse:patient ≤ 1:2; Surge unit ≤ 1:4
+    chunk_id: case_v01_p04_c02
