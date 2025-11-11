@@ -3,6 +3,8 @@ This proof-of-concept (PoC) demonstrates an **interactive stakeholder interview 
 It combines a **FastAPI backend** (multi-persona logic) and a **Streamlit frontend** (UI + notes canvas) to help students explore how optimization, bandits, and dynamic programming problems are framed from conversations.
 
 ## Repository layout
+```text
+.
 surge-poc/
  ├─ backend/
  │ ├─ app.py
@@ -17,7 +19,7 @@ surge-poc/
  │ └─ app.py
  ├─ requirements.txt
  └─ README.md
-
+```
 ## Quickstart
 ```bash
 # 1) clone repo and cd surge-poc
